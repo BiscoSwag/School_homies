@@ -65,6 +65,7 @@ if ($resultPosts->num_rows > 0): ?>
                     <td>
                         <?php include "./takeData/showData/showComments.php"; ?>
                         <?php include "./form/formComment.php"; ?>
+                        <?php include "./gestionePost/addToFolder.php"; ?>
                     </td>    
                 </tr>    
             <?php endwhile; ?>    
